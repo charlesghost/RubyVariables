@@ -24,13 +24,12 @@ class Person
 
         person_address = {
 
-            house_number:  30,
-            street:  "Gascoine Avenue",
-            town: "Lakeside",
-            county:  "Essex",
-            postcode: "RM13 8DB",
-            email_address: "charlesjoshua92@gmail.com",
-            password:  "#{favourite_things[2]} #{memorable_stuff[:birth_town]}"
+            :house_number => 30,
+            :street => "Gascoine Avenue",
+            :town =>"Lakeside",
+            :county => "Essex",
+            :postcode => "RM13 8DB",
+            :email_addresses => ["charlesjoshua92@gmail.com","flyentology@mail.com"]
 
         }
 
@@ -46,6 +45,7 @@ class Person
           mothers_name: "Eve",
           birth_town: "Richmond"
         }
+        password = "cat Richmond"
 
     end
 
